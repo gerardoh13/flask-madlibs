@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(31, 80, 69);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#formdiv input, label, button{
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#formdiv {
+    text-align: end;
+    border: solid;
+    width: 572px;
+}
+
+#formdiv label {
+    margin-right: 10px;
+}
+
+form {
+    margin: 20px;
+}
+
+#story {
+    font-size: 30px;
+    max-width: 571px;
+    border: solid;
+}
+#story p {
+    color: white;
+    text-align: center;
+}
+
+select {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 10px;
+}

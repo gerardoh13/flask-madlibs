@@ -1,0 +1,16 @@
+{% extends "base.html" %} 
+{% block title %} Madlibs Form {% endblock %} 
+{% block content %}
+<form action="/form" id="select-story-form">
+<select name="story_id" id="select-story">
+    <option value="">Select a Story</option>
+  {% for i in range(story_count) %}
+  <option value={{i}}>story{{i + 1}}</option>
+  {% endfor %}
+</select>
+
+<button>Submit!</button>
+</form>
+{% endblock %}
+
+
